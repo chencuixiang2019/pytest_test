@@ -1,0 +1,169 @@
+{
+  "uid" : "e994aa977b4f0c5f",
+  "name" : "test_login[listcases0]",
+  "fullName" : "cases.test_login.Test_login#test_login",
+  "historyId" : "b7527b1bf2eceb800c8526a4da939222",
+  "time" : {
+    "start" : 1613289406417,
+    "stop" : 1613289420878,
+    "duration" : 14461
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_login",
+    "time" : {
+      "start" : 1613289386534,
+      "stop" : 1613289406413,
+      "duration" : 19879
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1613289406418,
+        "stop" : 1613289420527,
+        "duration" : 14109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1613289420527,
+        "stop" : 1613289420667,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1613289420667,
+        "stop" : 1613289420800,
+        "duration" : 133
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1613289420800,
+        "stop" : 1613289420878,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "20c1506d936eedd8",
+      "name" : "log",
+      "source" : "20c1506d936eedd8.txt",
+      "type" : "text/plain",
+      "size" : 6335
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_login::0",
+    "time" : {
+      "start" : 1613289446579,
+      "stop" : 1613289446579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "后台系统"
+  }, {
+    "name" : "story",
+    "value" : "登陆用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160329AGKD"
+  }, {
+    "name" : "thread",
+    "value" : "4636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e994aa977b4f0c5f.json",
+  "parameterValues" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}]}" ]
+}

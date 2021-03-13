@@ -1,0 +1,10 @@
+INFO     root:test_login.py:41 [{'name': '打开用户管理页面', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id="app"]/div/div/section/div/div[1]/div/input', 'value': 'ccx'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id="app"]/div/div/section/div/div[1]/button[1]/span'}]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49357/session/36b9bafea5d2d774731f64d9027be726/url {"url": "http://boxadmin.smartbearkit.com/#/baseManager/userManager"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49357 "POST /session/36b9bafea5d2d774731f64d9027be726/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49357/session/36b9bafea5d2d774731f64d9027be726/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/div/section/div/div[1]/div/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49357 "POST /session/36b9bafea5d2d774731f64d9027be726/element HTTP/1.1" 404 1184
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:49333/session/4aa50c4419173f913aab1b02f0912a37 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49333 "DELETE /session/4aa50c4419173f913aab1b02f0912a37 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

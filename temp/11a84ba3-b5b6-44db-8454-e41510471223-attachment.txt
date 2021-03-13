@@ -1,0 +1,4 @@
+INFO     root:test_login.py:41 [{'name': '打开用户管理页面', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id="app"]/div/div/section/div/div[1]/div/input', 'value': 'ccx'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id="app"]/div/div/section/div/div[1]/button[1]/span'}]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:64449/session/bd693138dc7ec96b521ce565258cb665 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:64449 "DELETE /session/bd693138dc7ec96b521ce565258cb665 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

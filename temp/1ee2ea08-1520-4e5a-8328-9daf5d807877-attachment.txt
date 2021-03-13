@@ -1,0 +1,22 @@
+INFO     root:test_login.py:28 [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入错误用户名', 'method': 'input', 'locator': '//*[@id="app"]/div/form/div[1]/div/div/input', 'value': 'ccx001'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id="app"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id="app"]/div/form/div[3]/div/button'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/url {"url": "http://boxadmin.smartbearkit.com/#/login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/form/div[1]/div/div/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/element/d9152e10-8e70-4755-aa8d-20911f101e53/value {"text": "ccx001", "value": ["c", "c", "x", "0", "0", "1"], "id": "d9152e10-8e70-4755-aa8d-20911f101e53"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/element/d9152e10-8e70-4755-aa8d-20911f101e53/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/element/85c1d8df-b39f-4871-9b3b-24e126801307/value {"text": "666666", "value": ["6", "6", "6", "6", "6", "6"], "id": "85c1d8df-b39f-4871-9b3b-24e126801307"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/element/85c1d8df-b39f-4871-9b3b-24e126801307/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/element {"using": "xpath", "value": "//*[@id=\"app\"]/div/form/div[3]/div/button"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:49267/session/8425cab7747e427fb03a5327cfa7f921/element/ee958310-3487-4e3d-80eb-6db5622528de/click {"id": "ee958310-3487-4e3d-80eb-6db5622528de"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:49267 "POST /session/8425cab7747e427fb03a5327cfa7f921/element/ee958310-3487-4e3d-80eb-6db5622528de/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

@@ -1,0 +1,303 @@
+#houtai
+loginPage :
+  -
+    title : 登录成功
+    cases :
+      -
+        name : 打开登录页
+        method : getUrl
+        url : http://ad.hivescrm.cn/login
+      -
+        name: 等待
+        method: sleep
+        t: 0.5
+      -
+        name : 输入用户名
+        method : input
+        locator : //*[@id="app"]/div/form/div[1]/div/div[1]/input
+        value : ads
+      -
+        name : 输入密码
+        method : input
+        locator : //*[@id="app"]/div/form/div[2]/div/div[1]/input
+        value : ads123
+
+    #需要一个万能的验证码
+      #- name: 输入验证码
+          #method: input
+          #locator: //*[@id="app"]/div/form/div[3]/div/div[1]/input
+          #value: 6
+      -
+        name : 固定等待
+        method : sleep
+        t : 5
+      -
+        name : 点击登录
+        method : click
+        locator : //*[@id="app"]/div/form/div[4]/div/button
+      - name: 等待
+        method: sleep
+        t: 8
+素材管理_图片管理 :
+  -
+    title : 素材管理_图片管理
+    cases :
+      -
+        name : 素材管理_图片管理页面
+        method : getUrl
+        url : http://ad.hivescrm.cn/creative/image
+      - name: 等待
+        method: sleep
+        t: 3
+      -
+        name : 按图片名称关键字查询_存在结果集
+        method : input
+        locator : //*[@id="app"]/div/div[2]/section/div/form/div[1]/div/div/input
+        value : US
+      -
+        name : 点击搜索
+        method : click
+        locator : //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[1]
+      - name: 等待
+        method: sleep
+        t: 3
+      - name: 断言-存在页码器
+        method: assert_element_is_exit
+        locator: //*[@id="app"]/div/div[2]/section/div/div[3]/div
+    cases1:
+    - name: 点击重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 按图片名关键字查询_不存在结果集
+      method: input
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[1]/div/div/input
+      value: USA
+    - name: 点击搜索
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[1]
+    - name: 等待
+      method: sleep
+      t: 4
+    - name: 断言-暂无数据
+      method: assert_element_is_exit
+      locator: //*[@id="app"]/div/div[2]/section/div/div[2]/div[3]/div/span
+    cases2:
+    - name: 点击重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 按本地名关键字查询_存在结果集
+      method: input
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[2]/div/div/input
+      value: 1.jpg
+    - name: 点击搜索
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[1]
+    - name: 等待
+      method: sleep
+      t: 2
+    - name: 断言-页码器
+      method: assert_element_is_exit
+      locator: //*[@id="app"]/div/div[2]/section/div/div[3]/div
+
+    cases3:
+    - name: 点击重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 按本地名关键字查询_不存在结果集
+      method: input
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[2]/div/div/input
+      value: 666
+    - name: 点击搜索
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[1]
+    - name: 等待
+      method: sleep
+      t: 2
+    - name: 断言-暂无数据
+      method: assert_element_is_exit
+      locator: //*[@id="app"]/div/div[2]/section/div/div[2]/div[3]/div/span
+
+    cases4:
+    - name: 点击重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 按订单关键字查询_存在结果集
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[3]/div/div/div[1]
+    - name: 等待
+      method: sleep
+      t: 3
+    - name: 选择下拉框
+      method: click
+      locator: /html/body/div[2]/div[1]/div[1]/ul/li[2]/span
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 点击搜索
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[1]
+    - name: 断言-页码器
+      method: assert_element_is_exit
+      locator: //*[@id="app"]/div/div[2]/section/div/div[3]/div
+
+    cases5_add:
+    - name: 新增-点击新增按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/div[1]/div[1]/button
+    - name: 等待
+      method: sleep
+      t: 3
+    - name: 点击订单号下拉框
+      method: click
+      locator: //div[@class="el-dialog__wrapper"]//div//div//form[@class="el-form"]//div//div//div//div//input
+    - name: 等待
+      method: sleep
+      t: 3
+    - name: 点击选择下拉框
+      method: click
+      locator: /html/body/div[4]/div[1]/div[1]/ul/li[1]/span
+    - name: 点击上传图片选择框
+      method: input
+      locator: /html/body/div[2]/div/div[2]/form/div[2]/div/div/div/input
+      value: r'D:\u=100927349,2419427738&fm=26&gp=0.jpg'
+    - name: 等待
+      method: sleep
+      t: 0.5
+    - name: 点击确认上传
+      method: click
+      locator: //*[@class="el-button el-button--primary el-button--small"]
+    - name: 等待弹窗出现
+      method: wait_element_visibility
+      locator: //*[@class="el-message__content"]
+
+    - name: 断言弹窗文本信息-上传成功
+      method: assert_alert_text
+      locator: //*[@class="el-message__content"]
+      msg: 图片上传成功
+    - name: 等待
+      method: sleep
+      t: 1
+
+    - name: 选择标签
+      method: click
+      locator: //input[@class="el-select__input is-medium"]
+    - name: 等待
+      method: sleep
+      t: 0.5
+    - name: 选择标签
+      method: click
+      locator: //span[(text()="视频")]
+    - name: 点击确定保存
+      method: click
+      locator: //button[span[(text()="确 定")]]
+    - name: 等待弹窗出现
+      method: wait_element_visibility
+      locator: //*[@class="el-message__content"]
+    - name: 断言-文本-新增成功
+      method: assert_alert_text
+      locator: //*[@class="el-message__content"]
+      msg: 新增成功
+
+    cases6_delete:
+    - name: 勾选数据后-删除-先重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 勾选第一条数据进行删除操作
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/div[2]/div[3]/table/tbody/tr[1]/td[1]/div/label/span/span
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 点击删除按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/div[1]/div[3]/button/span
+    - name: 点击取消按钮
+      method: click
+      locator: //*[@class="el-message-box__wrapper"]//div//div[3]//button[1]
+    - name: 等待
+      method: sleep
+      t: 0.5
+    - name: 断言-确定元素未删除
+      method: assert_element_is_exit
+      locator: //*[@id="app"]/div/div[2]/section/div/div[2]/div[2]/table/thead/tr/th[1]
+
+    cases7_delete:
+    - name: 勾选数据后-删除-先重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 勾选第一条数据进行删除操作
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/div[2]/div[3]/table/tbody/tr[1]/td[1]/div/label/span/span
+    - name: 等待
+      method: sleep
+      t: 2
+    - name: 点击删除按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/div[1]/div[3]/button/span
+    - name: 点击确定按钮
+      method: click
+      locator: //*[@class="el-message-box__wrapper"]//div//div[3]//button[2]
+    - name: 等待
+      method: sleep
+      t: 0.5
+    - name: 断言-删除成功的alert文本
+      method: assert_alert_text
+      msg: 删除成功
+    cases８_delete:
+    - name: 点击列表的-删除按钮进行删除-先重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 选择第一条数据进行删除操作
+      method: click
+      locator: //*[@class="el-message-box__wrapper"]//div//div[3]//button[1]
+    - name: 等待
+      method: sleep
+      t: 2
+    - name: 点击取消按钮
+      method: click
+      locator: //*[@class="el-message-box__wrapper"]//div//div[3]//button[1]
+
+    cases9_delete:
+    - name: 点击列表的-删除按钮进行删除-先重置按钮
+      method: click
+      locator: //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[2]
+    - name: 等待
+      method: sleep
+      t: 1
+    - name: 选择第一条数据进行删除操作
+      method: click
+      locator: //*[@class="el-message-box__wrapper"]//div//div[3]//button[1]
+    - name: 等待
+      method: sleep
+      t: 2
+    - name: 点击确定按钮
+      method: click
+      locator: //*[@class="el-message-box__wrapper"]//div//div[3]//button[2]
+    - name: 等待
+      method: sleep
+      t: 0.5
+    - name: 断言-删除成功的alert文本
+      method: assert_alert_text
+      msg: 删除成功
+

@@ -1,0 +1,193 @@
+{
+  "uid" : "a40d06bedf23103a",
+  "name" : "test_login[listcases0]",
+  "fullName" : "cases.test_login.Test_photoMange#test_login",
+  "historyId" : "b2d147715c312c78f4d6b8a322abc6a5",
+  "time" : {
+    "start" : 1615360668843,
+    "stop" : 1615360685561,
+    "duration" : 16718
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_photoMange",
+    "time" : {
+      "start" : 1615360662843,
+      "stop" : 1615360668230,
+      "duration" : 5387
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1615360668844,
+        "stop" : 1615360677181,
+        "duration" : 8337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1615360677181,
+        "stop" : 1615360677325,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1615360677325,
+        "stop" : 1615360677464,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1615360677464,
+        "stop" : 1615360682464,
+        "duration" : 5000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1615360682464,
+        "stop" : 1615360682561,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "等待",
+      "time" : {
+        "start" : 1615360682561,
+        "stop" : 1615360685561,
+        "duration" : 3000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_photoMange::0",
+    "time" : {
+      "start" : 1615360699231,
+      "stop" : 1615360705902,
+      "duration" : 6671
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登陆"
+  }, {
+    "name" : "feature",
+    "value" : "蜂巢投放系统后台"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_photoMange"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160329AGKD"
+  }, {
+    "name" : "thread",
+    "value" : "5556-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div[1]/input', 'value': 'ads'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 'ads123'}, {'name': '固定等待', 'method': 'sleep', 't': 5}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[4]/div/button'}, {'name': '等待', 'method': 'sleep', 't': 3}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a40d06bedf23103a.json",
+  "parameterValues" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div[1]/input', 'value': 'ads'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 'ads123'}, {'name': '固定等待', 'method': 'sleep', 't': 5}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[4]/div/button'}, {'name': '等待', 'method': 'sleep', 't': 3}]}" ]
+}

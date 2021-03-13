@@ -1,0 +1,166 @@
+{
+  "uid" : "347634d932e41c5c",
+  "name" : "test_searchUser[username0]",
+  "fullName" : "cases.test_login.Test_login#test_searchUser",
+  "historyId" : "5c657c871be491c44aa8e2da15aa8e88",
+  "time" : {
+    "start" : 1613267637760,
+    "stop" : 1613267637762,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebKeywords' object has no attribute 'driver'",
+  "statusTrace" : "self = <cases.test_login.Test_login object at 0x02B3F130>\nusername = {'cases': [{'method': 'getUrl', 'name': '打开用户管理页面', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager...r': '//*[@id=\"app\"]/div/div/section/div/div[1]/button[1]/span', 'method': 'click', 'name': '点击登录'}], 'title': '用户管理查询'}\n\n    @allure.story(\"用户界面搜索用例\")\n    @pytest.mark.parametrize('username',datas['userManagePage'])\n    def test_searchUser(self,username):\n        casedatas = username['cases']\n        log.info(casedatas)\n        for cases in (casedatas):\n            listcase = list(cases.values())\n            with allure.step(listcase[0]):\n                print(listcase)\n                func = getattr(self.web, listcase[1])\n                values = listcase[2:]\n>               func(*values)\n\ncases\\test_login.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <operate.webKeywords.WebKeywords object at 0x02B20410>\nurl = 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'\n\n    def getUrl(self,url=None):\n>       self.driver.get(url)\nE       AttributeError: 'WebKeywords' object has no attribute 'driver'\n\noperate\\webKeywords.py:56: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_login",
+    "time" : {
+      "start" : 1613267636341,
+      "stop" : 1613267636342,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers",
+    "time" : {
+      "start" : 1613267633772,
+      "stop" : 1613267636341,
+      "duration" : 2569
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebKeywords' object has no attribute 'driver'",
+    "statusTrace" : "self = <cases.test_login.Test_login object at 0x02B3F130>\nusername = {'cases': [{'method': 'getUrl', 'name': '打开用户管理页面', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager...r': '//*[@id=\"app\"]/div/div/section/div/div[1]/button[1]/span', 'method': 'click', 'name': '点击登录'}], 'title': '用户管理查询'}\n\n    @allure.story(\"用户界面搜索用例\")\n    @pytest.mark.parametrize('username',datas['userManagePage'])\n    def test_searchUser(self,username):\n        casedatas = username['cases']\n        log.info(casedatas)\n        for cases in (casedatas):\n            listcase = list(cases.values())\n            with allure.step(listcase[0]):\n                print(listcase)\n                func = getattr(self.web, listcase[1])\n                values = listcase[2:]\n>               func(*values)\n\ncases\\test_login.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <operate.webKeywords.WebKeywords object at 0x02B20410>\nurl = 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'\n\n    def getUrl(self,url=None):\n>       self.driver.get(url)\nE       AttributeError: 'WebKeywords' object has no attribute 'driver'\n\noperate\\webKeywords.py:56: AttributeError",
+    "steps" : [ {
+      "name" : "打开用户管理页面",
+      "time" : {
+        "start" : 1613267637761,
+        "stop" : 1613267637761,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "AttributeError: 'WebKeywords' object has no attribute 'driver'\n",
+      "statusTrace" : "  File \"D:\\pytest_test\\cases\\test_login.py\", line 51, in test_searchUser\n    func(*values)\n  File \"D:\\pytest_test\\operate\\webKeywords.py\", line 56, in getUrl\n    self.driver.get(url)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c06582bc3c8a24fd",
+      "name" : "失败截图20210214095357",
+      "source" : "c06582bc3c8a24fd.png",
+      "type" : "image/png",
+      "size" : 4700
+    }, {
+      "uid" : "b10d908e2b9b2c4c",
+      "name" : "log",
+      "source" : "b10d908e2b9b2c4c.txt",
+      "type" : "text/plain",
+      "size" : 795
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_login::0",
+    "time" : {
+      "start" : 1613267638144,
+      "stop" : 1613267638144,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "drivers::fn",
+    "time" : {
+      "start" : 1613267638148,
+      "stop" : 1613267640617,
+      "duration" : 2469
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户界面搜索用例"
+  }, {
+    "name" : "feature",
+    "value" : "后台系统"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160329AGKD"
+  }, {
+    "name" : "thread",
+    "value" : "7388-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "username",
+    "value" : "{'title': '用户管理查询', 'cases': [{'name': '打开用户管理页面', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/div/input', 'value': 'ccx'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/button[1]/span'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "347634d932e41c5c.json",
+  "parameterValues" : [ "{'title': '用户管理查询', 'cases': [{'name': '打开用户管理页面', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/div/input', 'value': 'ccx'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/button[1]/span'}]}" ]
+}

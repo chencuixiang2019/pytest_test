@@ -1,0 +1,255 @@
+{
+  "b2d147715c312c78f4d6b8a322abc6a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14aa0a14438e73bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428441503,
+        "stop" : 1615428455213,
+        "duration" : 13710
+      }
+    } ]
+  },
+  "d9c6e38afcb242d5166a2eaf886ef2e0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef8b21f5d03f39f2",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'cases5'",
+      "time" : {
+        "start" : 1615428480367,
+        "stop" : 1615428480368,
+        "duration" : 1
+      }
+    } ]
+  },
+  "27f0b39082fdedee8ee2d5c011e4f094" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7882ee875999a3fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428455227,
+        "stop" : 1615428462123,
+        "duration" : 6896
+      }
+    } ]
+  },
+  "da478c8bb55b1a7f97aa3c22e2b687fe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9c7b1015dc5a8b5",
+      "status" : "broken",
+      "statusDetails" : "ValueError: browser did not yield a value",
+      "time" : {
+        "start" : 1613270700908,
+        "stop" : 1613270700908,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2a401e820b4a8bc351ba489e849e86a3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3ea3bdbcc40f3ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428467606,
+        "stop" : 1615428471035,
+        "duration" : 3429
+      }
+    } ]
+  },
+  "2e02d6c146df4232992fe756ee211622" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a08ef335a447a1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613289691449,
+        "stop" : 1613289694266,
+        "duration" : 2817
+      }
+    } ]
+  },
+  "9c7753a6e09483b9d19c0a6c05ad324c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f32a6a4de24110b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428474550,
+        "stop" : 1615428480219,
+        "duration" : 5669
+      }
+    } ]
+  },
+  "5c657c871be491c44aa8e2da15aa8e88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73ae5a9aeacaee48",
+      "status" : "broken",
+      "statusDetails" : "ValueError: browser did not yield a value",
+      "time" : {
+        "start" : 1613270710190,
+        "stop" : 1613270710190,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6c0936ab6df22a27f872dff5dade952f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "554886b92c18f62d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428471087,
+        "stop" : 1615428474531,
+        "duration" : 3444
+      }
+    } ]
+  },
+  "4486890cbbf15c0e7ee551768a60967d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "233b9501b275e5a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615428462169,
+        "stop" : 1615428467590,
+        "duration" : 5421
+      }
+    } ]
+  },
+  "d59ef88bd3200bce00432f4c46176a51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b21984f4ed8ce825",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div/section/div/div[1]/div/input\"}\n  (Session info: chrome=88.0.4324.150)",
+      "time" : {
+        "start" : 1613289845166,
+        "stop" : 1613289860762,
+        "duration" : 15596
+      }
+    } ]
+  },
+  "b7527b1bf2eceb800c8526a4da939222" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b74108b8e99dfc50",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[1]/div[2]/div[1]/div/ul/div[3]/li/div\"}\n  (Session info: chrome=88.0.4324.190)",
+      "time" : {
+        "start" : 1615347597285,
+        "stop" : 1615347624396,
+        "duration" : 27111
+      }
+    } ]
+  },
+  "76a510c3420211ca2272c820f3a14413" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd528635314d1a0e",
+      "status" : "broken",
+      "statusDetails" : "ValueError: browser did not yield a value",
+      "time" : {
+        "start" : 1613270709432,
+        "stop" : 1613270709432,
+        "duration" : 0
+      }
+    } ]
+  }
+}

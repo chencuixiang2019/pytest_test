@@ -1,0 +1,306 @@
+{
+  "uid" : "a08ef335a447a1dd",
+  "name" : "test_login[listcases1]",
+  "fullName" : "cases.test_login.Test_login#test_login",
+  "historyId" : "2e02d6c146df4232992fe756ee211622",
+  "time" : {
+    "start" : 1613289691449,
+    "stop" : 1613289694266,
+    "duration" : 2817
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1613289633373,
+      "stop" : 1613289640975,
+      "duration" : 7602
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_login",
+    "time" : {
+      "start" : 1613289640975,
+      "stop" : 1613289685117,
+      "duration" : 44142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开登录页",
+      "time" : {
+        "start" : 1613289691600,
+        "stop" : 1613289691933,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入错误用户名",
+      "time" : {
+        "start" : 1613289691933,
+        "stop" : 1613289692059,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1613289692059,
+        "stop" : 1613289692176,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录",
+      "time" : {
+        "start" : 1613289692176,
+        "stop" : 1613289692266,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "固定等待",
+      "time" : {
+        "start" : 1613289692266,
+        "stop" : 1613289694266,
+        "duration" : 2000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "3eb1da889e94c7dc",
+      "name" : "log",
+      "source" : "3eb1da889e94c7dc.txt",
+      "type" : "text/plain",
+      "size" : 4139
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "browser::fn",
+    "time" : {
+      "start" : 1613289705168,
+      "stop" : 1613289707737,
+      "duration" : 2569
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_login::0",
+    "time" : {
+      "start" : 1613289705116,
+      "stop" : 1613289705161,
+      "duration" : 45
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebKeywords' object has no attribute 'quit'\n",
+    "statusTrace" : "  File \"D:\\pytest_test\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"D:\\pytest_test\\venv\\lib\\site-packages\\_pytest\\fixtures.py\", line 941, in _teardown_yield_fixture\n    next(it)\n  File \"D:\\pytest_test\\venv\\lib\\site-packages\\_pytest\\python.py\", line 815, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, self.obj)\n  File \"D:\\pytest_test\\venv\\lib\\site-packages\\_pytest\\python.py\", line 739, in _call_with_optional_argument\n    func(arg)\n  File \"D:\\pytest_test\\cases\\test_login.py\", line 51, in teardown_class\n    self.web.quit()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登陆用例"
+  }, {
+    "name" : "feature",
+    "value" : "后台系统"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160329AGKD"
+  }, {
+    "name" : "thread",
+    "value" : "416-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "listcases",
+    "value" : "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入错误用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx001'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bce1b89187d9af8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613289420897,
+        "stop" : 1613289423633,
+        "duration" : 2736
+      }
+    }, {
+      "uid" : "3bfb516a570cae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613289163117,
+        "stop" : 1613289166167,
+        "duration" : 3050
+      }
+    }, {
+      "uid" : "57b55b6d0e883196",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebKeywords' object has no attribute 'driver'",
+      "time" : {
+        "start" : 1613282443228,
+        "stop" : 1613282443230,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "584396e8e30ebedc",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'str' object is not callable",
+      "time" : {
+        "start" : 1613282336277,
+        "stop" : 1613282336279,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "91530d371196a46d",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'str' object is not callable",
+      "time" : {
+        "start" : 1613281902492,
+        "stop" : 1613281902494,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "173d0935e5a48bfb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'str' object is not callable",
+      "time" : {
+        "start" : 1613278505457,
+        "stop" : 1613278505459,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "49df857d9b67bdec",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'str' object is not callable",
+      "time" : {
+        "start" : 1613278442186,
+        "stop" : 1613278442187,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7d35cf8626dd370b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'str' object is not callable",
+      "time" : {
+        "start" : 1613276656538,
+        "stop" : 1613276656541,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "6b3108b099512d4b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_login' object has no attribute 'web'",
+      "time" : {
+        "start" : 1613271271366,
+        "stop" : 1613271271368,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7ae7bc683f9aa823",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Test_login' object has no attribute 'web'",
+      "time" : {
+        "start" : 1613270996823,
+        "stop" : 1613270996825,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a08ef335a447a1dd.json",
+  "parameterValues" : [ "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入错误用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx001'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}" ]
+}

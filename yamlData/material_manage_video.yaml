@@ -1,0 +1,21 @@
+素材管理_视频管理 :
+  -
+    title : 搜索功能_按视频名称搜索成功
+    search_by_name_001 :
+      -
+        name : 打开登录页
+        method : getUrl
+        url : http://ad.hivescrm.cn/creative/video
+      -
+        name : 输入视频名称
+        method : input
+        locator : //*[@id="app"]/div/div[2]/section/div/form/div[1]/div/div/input
+        value : www
+      -
+        name : 点击搜索按钮
+        method : click
+        locator : //*[@id="app"]/div/div[2]/section/div/form/div[4]/div/button[1]
+
+      - name: 断言-暂无数据
+        method: assert_element_is_exit
+        locator: //*[@id="app"]/div/div[2]/section/div/div[2]/div[3]/div/span

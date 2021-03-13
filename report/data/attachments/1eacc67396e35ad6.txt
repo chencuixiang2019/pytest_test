@@ -1,0 +1,7 @@
+INFO     root:test_login.py:31 [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入错误用户名', 'method': 'input', 'locator': '//*[@id="app"]/div/form/div[1]/div/div/input', 'value': 'ccx001'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id="app"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id="app"]/div/form/div[3]/div/button'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61037/session/7c7e410a27b1d997bc0fe4c6a2fe5b8a/url {"url": "http://boxadmin.smartbearkit.com/#/login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:61037 "POST /session/7c7e410a27b1d997bc0fe4c6a2fe5b8a/url HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61037/session/7c7e410a27b1d997bc0fe4c6a2fe5b8a/element {"using": "xpath", "value": ""}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:61037 "POST /session/7c7e410a27b1d997bc0fe4c6a2fe5b8a/element HTTP/1.1" 400 1384
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

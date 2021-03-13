@@ -1,0 +1,218 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "后台系统",
+    "children" : [ {
+      "name" : "登陆用例",
+      "children" : [ {
+        "name" : "test_loginSuccess[listcases0]",
+        "uid" : "a9c7b1015dc5a8b5",
+        "parentUid" : "5abf640d291d26842c3c14378b048704",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613270700908,
+          "stop" : 1613270700908,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}]}" ]
+      }, {
+        "name" : "test_loginSuccess[listcases1]",
+        "uid" : "fd528635314d1a0e",
+        "parentUid" : "5abf640d291d26842c3c14378b048704",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613270709432,
+          "stop" : 1613270709432,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入错误用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx001'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}" ]
+      }, {
+        "name" : "test_login[listcases1]",
+        "uid" : "a08ef335a447a1dd",
+        "parentUid" : "5abf640d291d26842c3c14378b048704",
+        "status" : "passed",
+        "time" : {
+          "start" : 1613289691449,
+          "stop" : 1613289694266,
+          "duration" : 2817
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录失败', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/login'}, {'name': '输入错误用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div/input', 'value': 'ccx001'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 666666}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[3]/div/button'}, {'name': '固定等待', 'method': 'sleep', 'time': 2}]}" ]
+      } ],
+      "uid" : "5abf640d291d26842c3c14378b048704"
+    }, {
+      "name" : "用户界面搜索用例",
+      "children" : [ {
+        "name" : "test_searchUser[username0]",
+        "uid" : "73ae5a9aeacaee48",
+        "parentUid" : "67b60234562013b0866551f6b8e7156c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613270710190,
+          "stop" : 1613270710190,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户管理查询', 'cases': [{'name': '打开用户管理页面', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/div/input', 'value': 'ccx'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/button[1]/span'}]}" ]
+      }, {
+        "name" : "test_zsearchUser[username0]",
+        "uid" : "b21984f4ed8ce825",
+        "parentUid" : "67b60234562013b0866551f6b8e7156c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1613289845166,
+          "stop" : 1613289860762,
+          "duration" : 15596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '用户管理查询', 'cases': [{'name': '打开用户管理页面', 'method': 'getUrl', 'url': 'http://boxadmin.smartbearkit.com/#/baseManager/userManager'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/div/input', 'value': 'ccx'}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div/section/div/div[1]/button[1]/span'}]}" ]
+      } ],
+      "uid" : "67b60234562013b0866551f6b8e7156c"
+    } ],
+    "uid" : "c807f63d473fcd2eb456689b9377ba9b"
+  }, {
+    "name" : "蜂巢投放系统后台",
+    "children" : [ {
+      "name" : "登陆",
+      "children" : [ {
+        "name" : "test_login[listcases0]",
+        "uid" : "b74108b8e99dfc50",
+        "parentUid" : "8a00a4169b0e6a938ed21066825fcf80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615347597285,
+          "stop" : 1615347624396,
+          "duration" : 27111
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div[1]/input', 'value': 'ads'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 'ads123'}, {'name': '固定等待', 'method': 'sleep', 't': 5}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[4]/div/button'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '点击素材管理菜单栏', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[1]/div[2]/div[1]/div/ul/div[3]/li/div'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '点击图片管理菜单', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[1]/div[2]/div[1]/div/ul/div[3]/li/ul/div[2]/a/li/span'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按照图片名称关键字查询', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input'}, {'name': '点击搜索按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]/span'}]}" ]
+      }, {
+        "name" : "test_login[listcases0]",
+        "uid" : "14aa0a14438e73bc",
+        "parentUid" : "8a00a4169b0e6a938ed21066825fcf80",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615428441503,
+          "stop" : 1615428455213,
+          "duration" : 13710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/login'}, {'name': '输入用户名', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[1]/div/div[1]/input', 'value': 'ads'}, {'name': '输入密码', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/form/div[2]/div/div[1]/input', 'value': 'ads123'}, {'name': '固定等待', 'method': 'sleep', 't': 5}, {'name': '点击登录', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/form/div[4]/div/button'}, {'name': '等待', 'method': 'sleep', 't': 3}]}" ]
+      } ],
+      "uid" : "8a00a4169b0e6a938ed21066825fcf80"
+    }, {
+      "name" : "素材管理_图片管理_关键字查询_按图片名称_有数据",
+      "children" : [ {
+        "name" : "test_photo_manage_kewords_search01[itemList0]",
+        "uid" : "7882ee875999a3fe",
+        "parentUid" : "8437d85293f2aee9f1e6731f7357f7dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615428455227,
+          "stop" : 1615428462123,
+          "duration" : 6896
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '素材管理_图片管理', 'cases': [{'name': '素材管理_图片管理页面', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/creative/image'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按图片名称关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'US'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '断言-存在页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases1': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按图片名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'USA'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 4}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases2': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': '1.jpg'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases3': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': 666}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases4': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按订单关键字查询_存在结果集', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[3]/div/div/div[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[2]/div[1]/div[1]/ul/li[2]/span'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases7': [{'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[6]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击上传图片选择框', 'method': 'input', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/div/div', 'value': \"r'D:\\\\u=100927349,2419427738&fm=26&gp=0.jpg'\"}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '点击确认上传', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/button/span'}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[3]/div/div/div[1]/input'}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[9]/div[1]/div[1]/ul/li[1]'}, {'name': '点击确定保存', 'method': 'click', 'locator': '/html/body/div[7]/div/div[3]/div/button[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases6': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击搜索', 'method': 'click', 'locator': '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}]}" ]
+      } ],
+      "uid" : "8437d85293f2aee9f1e6731f7357f7dc"
+    }, {
+      "name" : "素材管理_图片管理_按图片名称_关键字查询无数据",
+      "children" : [ {
+        "name" : "test_photo_manage_kewords_search02[itemList0]",
+        "uid" : "233b9501b275e5a6",
+        "parentUid" : "9a1097b504dcbc3bebae053f4612e045",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615428462169,
+          "stop" : 1615428467590,
+          "duration" : 5421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '素材管理_图片管理', 'cases': [{'name': '素材管理_图片管理页面', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/creative/image'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按图片名称关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'US'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '断言-存在页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases1': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按图片名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'USA'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 4}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases2': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': '1.jpg'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases3': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': 666}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases4': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按订单关键字查询_存在结果集', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[3]/div/div/div[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[2]/div[1]/div[1]/ul/li[2]/span'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases7': [{'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[6]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击上传图片选择框', 'method': 'input', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/div/div', 'value': \"r'D:\\\\u=100927349,2419427738&fm=26&gp=0.jpg'\"}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '点击确认上传', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/button/span'}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[3]/div/div/div[1]/input'}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[9]/div[1]/div[1]/ul/li[1]'}, {'name': '点击确定保存', 'method': 'click', 'locator': '/html/body/div[7]/div/div[3]/div/button[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases6': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击搜索', 'method': 'click', 'locator': '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}]}" ]
+      } ],
+      "uid" : "9a1097b504dcbc3bebae053f4612e045"
+    }, {
+      "name" : "素材管理_图片管理_按本地名_关键字查询有数据",
+      "children" : [ {
+        "name" : "test_photo_manage_kewords_search03[itemList0]",
+        "uid" : "c3ea3bdbcc40f3ac",
+        "parentUid" : "dc3d2055961f77eedd118b1f66495dcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615428467606,
+          "stop" : 1615428471035,
+          "duration" : 3429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '素材管理_图片管理', 'cases': [{'name': '素材管理_图片管理页面', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/creative/image'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按图片名称关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'US'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '断言-存在页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases1': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按图片名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'USA'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 4}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases2': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': '1.jpg'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases3': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': 666}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases4': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按订单关键字查询_存在结果集', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[3]/div/div/div[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[2]/div[1]/div[1]/ul/li[2]/span'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases7': [{'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[6]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击上传图片选择框', 'method': 'input', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/div/div', 'value': \"r'D:\\\\u=100927349,2419427738&fm=26&gp=0.jpg'\"}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '点击确认上传', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/button/span'}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[3]/div/div/div[1]/input'}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[9]/div[1]/div[1]/ul/li[1]'}, {'name': '点击确定保存', 'method': 'click', 'locator': '/html/body/div[7]/div/div[3]/div/button[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases6': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击搜索', 'method': 'click', 'locator': '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}]}" ]
+      } ],
+      "uid" : "dc3d2055961f77eedd118b1f66495dcb"
+    }, {
+      "name" : "素材管理_图片管理_按本地名称_关键字查询无数据",
+      "children" : [ {
+        "name" : "test_photo_manage_kewords_search04[itemList0]",
+        "uid" : "554886b92c18f62d",
+        "parentUid" : "8775db43af8349b1346685c78d48a49a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615428471087,
+          "stop" : 1615428474531,
+          "duration" : 3444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '素材管理_图片管理', 'cases': [{'name': '素材管理_图片管理页面', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/creative/image'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按图片名称关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'US'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '断言-存在页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases1': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按图片名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'USA'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 4}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases2': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': '1.jpg'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases3': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': 666}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases4': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按订单关键字查询_存在结果集', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[3]/div/div/div[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[2]/div[1]/div[1]/ul/li[2]/span'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases7': [{'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[6]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击上传图片选择框', 'method': 'input', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/div/div', 'value': \"r'D:\\\\u=100927349,2419427738&fm=26&gp=0.jpg'\"}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '点击确认上传', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/button/span'}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[3]/div/div/div[1]/input'}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[9]/div[1]/div[1]/ul/li[1]'}, {'name': '点击确定保存', 'method': 'click', 'locator': '/html/body/div[7]/div/div[3]/div/button[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases6': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击搜索', 'method': 'click', 'locator': '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}]}" ]
+      } ],
+      "uid" : "8775db43af8349b1346685c78d48a49a"
+    }, {
+      "name" : "素材管理_图片管理_按订单查询_关键字查询有数据",
+      "children" : [ {
+        "name" : "test_photo_manage_kewords_search05[itemList0]",
+        "uid" : "f32a6a4de24110b4",
+        "parentUid" : "eb5d2d2dc9737d84d571e4e159896e0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615428474550,
+          "stop" : 1615428480219,
+          "duration" : 5669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '素材管理_图片管理', 'cases': [{'name': '素材管理_图片管理页面', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/creative/image'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按图片名称关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'US'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '断言-存在页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases1': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按图片名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'USA'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 4}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases2': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': '1.jpg'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases3': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': 666}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases4': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按订单关键字查询_存在结果集', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[3]/div/div/div[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[2]/div[1]/div[1]/ul/li[2]/span'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases7': [{'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[6]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击上传图片选择框', 'method': 'input', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/div/div', 'value': \"r'D:\\\\u=100927349,2419427738&fm=26&gp=0.jpg'\"}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '点击确认上传', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/button/span'}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[3]/div/div/div[1]/input'}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[9]/div[1]/div[1]/ul/li[1]'}, {'name': '点击确定保存', 'method': 'click', 'locator': '/html/body/div[7]/div/div[3]/div/button[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases6': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击搜索', 'method': 'click', 'locator': '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}]}" ]
+      } ],
+      "uid" : "eb5d2d2dc9737d84d571e4e159896e0b"
+    }, {
+      "name" : "素材管理_图片管理_新增_新增成功",
+      "children" : [ {
+        "name" : "test_photo_manage_kewords_search06[itemList0]",
+        "uid" : "ef8b21f5d03f39f2",
+        "parentUid" : "a45fe92b9f279ba67e2954b4496fa06a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1615428480367,
+          "stop" : 1615428480368,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'title': '素材管理_图片管理', 'cases': [{'name': '素材管理_图片管理页面', 'method': 'getUrl', 'url': 'http://ad.hivescrm.cn/creative/image'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '按图片名称关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'US'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '断言-存在页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases1': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按图片名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[1]/div/div/input', 'value': 'USA'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 4}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases2': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': '1.jpg'}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases3': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按本地名关键字查询_不存在结果集', 'method': 'input', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[2]/div/div/input', 'value': 666}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '断言-暂无数据', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/div/span'}], 'cases4': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '按订单关键字查询_存在结果集', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[3]/div/div/div[1]'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[2]/div[1]/div[1]/ul/li[2]/span'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '点击搜索', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[1]'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases7': [{'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 3}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[6]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击上传图片选择框', 'method': 'input', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/div/div', 'value': \"r'D:\\\\u=100927349,2419427738&fm=26&gp=0.jpg'\"}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '点击确认上传', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[2]/div/button/span'}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[7]/div/div[2]/form/div[3]/div/div/div[1]/input'}, {'name': '等待', 'method': 'sleep', 't': 0.5}, {'name': '选择标签', 'method': 'click', 'locator': '/html/body/div[9]/div[1]/div[1]/ul/li[1]'}, {'name': '点击确定保存', 'method': 'click', 'locator': '/html/body/div[7]/div/div[3]/div/button[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}], 'cases6': [{'name': '点击重置按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/form/div[4]/div/button[2]'}, {'name': '新增-点击新增按钮', 'method': 'click', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[1]/div[1]/button'}, {'name': '等待', 'method': 'sleep', 't': 1}, {'name': '选择订单号下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div/div[2]/form/div[1]/div/div/div/input'}, {'name': '等待', 'method': 'sleep', 't': 2}, {'name': '选择下拉框', 'method': 'click', 'locator': '/html/body/div[8]/div[1]/div[1]/ul/li[1]'}, {'name': '点击搜索', 'method': 'click', 'locator': '/html/body/div[5]/div[1]/div[1]/ul/li[1]/span'}, {'name': '断言-页码器', 'method': 'assert_element_is_exit', 'locator': '//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div'}]}" ]
+      } ],
+      "uid" : "a45fe92b9f279ba67e2954b4496fa06a"
+    } ],
+    "uid" : "03e661224a08fbf3db364f1cc5d6fa40"
+  } ]
+}
